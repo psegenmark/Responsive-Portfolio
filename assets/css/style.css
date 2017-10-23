@@ -151,6 +151,7 @@ h3,
   width: 100%;
   max-width: 650px;
   padding: 30px;
+
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
@@ -240,8 +241,54 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-    #main-container {
+    nav {
+    width:100%;
+    }
+    .main-section {
       width:100%;
+      margin-top:39px;
+      float:left;
+    }
+    .sidebar{
+      margin-top:39px;
+      width:100%;
+      padding-right:10px;
+      float:left;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+    nav {
+    width:100%;
+    }
+    .main-section {
+      width:100%;
+      margin-top:40px;
+      float:left;
+    }
+    .sidebar{
+      width:100%;
+      float:left;
+      max-width:650px;
+    }
+
+  
+  }
+@media screen and (max-width: 640px) {
+
+  nav {
+    width:100%;
+    }
+    .main-section {
+      width:100%;
+      float:left;
+    }
+    .sidebar{
+      width:100%;
+      float:left;
+      max-width:640px;
     }
 
 }
